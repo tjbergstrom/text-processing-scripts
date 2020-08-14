@@ -17,7 +17,7 @@ cd signs
 # Get all file names in the directory into a variable
 files=$(ls)
 # Place all of those file names into a file, separated by newline
-echo $files | tr ' ' '\n' > files.txt
+echo $files | tr '.csv ' '.csv\n' > files.txt
 
 # Just quickly display what one of the files looks like before processing
 printf "\nOriginal: \n"
