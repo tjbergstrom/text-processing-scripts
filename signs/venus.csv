@@ -1,4 +1,4 @@
-start month,start day,start year,start time,ampm,label
+start month,start day,start year,start hour,start minute,ampm,label
 1,23,1930,7,22,PM,Aquarius
 2,16,1930,5,11,PM,Pisces
 3,12,1930,5,34,PM,Aries

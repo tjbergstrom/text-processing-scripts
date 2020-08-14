@@ -9,7 +9,7 @@
 # And over-write the original files
 # And print out a quick check of how the files resulted
 #
-# bash process.sh
+# bash process1.sh
 
 # Assuming the original files have been manually added to this directory
 cd signs
@@ -54,7 +54,7 @@ do
         sed -i 's/'"${monthArr[$val]}"'/'"${idx}"'/g' tmp.csv
     done
     # Add a desired meta-data header to the final file
-    echo "start month,start day,start year,start time,ampm,label" > "${line}"
+    echo "start month,start day,start year,start hour,start minute,ampm,label" > "${line}"
     # Append the processed text to the final file
     cat tmp.csv >> "${line}"
     rm tmp.csv
